@@ -24,8 +24,4 @@ To get started with RestFi, follow these steps:
 
 ### Notes:
 
-- Replace `"path/to/logo.png"` with the actual path to your logo image if you have one.
-- Adjust the installation commands and example usage as necessary to fit your actual framework's implementation.
-- Ensure that the MongoDB connection string and JWT secret are set up correctly for your application's security needs.
-
 Let me know if you need any modifications or additional information!

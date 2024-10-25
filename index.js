@@ -17,6 +17,9 @@ app.get("/", Auth("user"), (req, res) => {
 //Auth Route
 app.use("/auth", authRouter);
 
+//middleware in router example
+//app.use("/chat", Auth("user"), supportRouter);
+
 //User dashboard
 app.get("/user/dashboard", Auth("user"), (req, res) => {
   res.status(200).json({ message: "welcome restfi user" });
